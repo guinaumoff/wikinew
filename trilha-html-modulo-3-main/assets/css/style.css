@@ -1,0 +1,87 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul { list-style: none; padding-left: 5px; }
+a { color:blue; text-decoration: none;}
+article iframe{
+    display: flex;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+bar {
+    background-color: #f9f9fb;
+    
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+main {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+}
+anchors {
+    border-left: solid 1px #c7c7c7;
+    padding-left: 15px;
+    background-color: ivory;
+}
+sidebar {
+    border-right: solid 1px #cdcdcd;
+    background-color: ivory;
+}
+figure {
+    text-align: center;
+}
+blockquote{
+    background-color: rgb(219, 219, 219);
+}
+main article ul{
+    list-style: circle;
+    margin-left: 60px;
+}
+
+table {
+    border: solid 1px rgb(133, 133, 133);
+}
+table tr:nth-child(even) {
+    background-color: rgb(241, 241, 241);
+}
+table thead th {
+    background-color: rgb(185, 185, 185);
+    color: rgb(65, 65, 65);
+}
+table tr:hover {
+    background-color: rgb(238, 242, 245);
+
+}
+footer{
+    text-align:left;
+    font-size:smaller;
+    border-left: 100px;
+    border-right: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+anchors h2 {
+    background-color: cadetblue;
+}
+anchors table th,td{
+    border: none;
+    padding: 0px;
+
+    
+}
+
